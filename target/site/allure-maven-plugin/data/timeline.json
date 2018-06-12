@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "fvd_user",
+    "children" : [ {
+      "name" : "9780@fvd_user.main(1)",
+      "children" : [ {
+        "name" : "testCellphoneSearch",
+        "uid" : "fdf75f6b30c2acd",
+        "parentUid" : "a8d0daca10e31032ec3cbac291593388",
+        "status" : "passed",
+        "time" : {
+          "start" : 1528806375434,
+          "stop" : 1528806403508,
+          "duration" : 28074
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8d0daca10e31032ec3cbac291593388"
+    } ],
+    "uid" : "b5298327b11bd37e8eb21e96d54d2c20"
+  } ]
+}

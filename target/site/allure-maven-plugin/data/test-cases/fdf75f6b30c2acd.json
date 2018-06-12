@@ -1,0 +1,203 @@
+{
+  "uid" : "fdf75f6b30c2acd",
+  "name" : "testCellphoneSearch",
+  "fullName" : "YMTest.YandexMarketTest.testCellphoneSearch",
+  "historyId" : "635514883e1c2cd5349870b90c3e474",
+  "time" : {
+    "start" : 1528806375434,
+    "stop" : 1528806403508,
+    "duration" : 28074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1528806298067,
+      "stop" : 1528806374617,
+      "duration" : 76550
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting the list \"Product - Price\"",
+      "time" : {
+        "start" : 1528806375694,
+        "stop" : 1528806386827,
+        "duration" : 11133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5523557ec8a8424f",
+        "name" : "Screenshot",
+        "source" : "5523557ec8a8424f.png",
+        "type" : "image/png",
+        "size" : 126116
+      } ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "iphone x"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Check: is an item in the list",
+      "time" : {
+        "start" : 1528806386828,
+        "stop" : 1528806386836,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "iphone x"
+      }, {
+        "name" : "list",
+        "value" : "[YMTest.Item@46fc522d, YMTest.Item@4262fdeb]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Sort by lowest price",
+      "time" : {
+        "start" : 1528806386836,
+        "stop" : 1528806390753,
+        "duration" : 3917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "99d2c7ffba5873b9",
+        "name" : "Screenshot",
+        "source" : "99d2c7ffba5873b9.png",
+        "type" : "image/png",
+        "size" : 127408
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Click the cheapest product",
+      "time" : {
+        "start" : 1528806390754,
+        "stop" : 1528806402932,
+        "duration" : 12178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32ea18c8bfc4c11f",
+        "name" : "Screenshot",
+        "source" : "32ea18c8bfc4c11f.png",
+        "type" : "image/png",
+        "size" : 231517
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Show store names and prices",
+      "time" : {
+        "start" : 1528806402932,
+        "stop" : 1528806403505,
+        "duration" : 573
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5f15b98ce2baa2f",
+        "name" : "Screenshot",
+        "source" : "f5f15b98ce2baa2f.png",
+        "type" : "image/png",
+        "size" : 231517
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1528806403963,
+      "stop" : 1528806405195,
+      "duration" : 1232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "YMTest.YandexMarketTest"
+  }, {
+    "name" : "testClass",
+    "value" : "YMTest.YandexMarketTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCellphoneSearch"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "YMTest.YandexMarketTest"
+  }, {
+    "name" : "host",
+    "value" : "fvd_user"
+  }, {
+    "name" : "thread",
+    "value" : "9780@fvd_user.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdf75f6b30c2acd.json",
+  "parameterValues" : [ ]
+}
